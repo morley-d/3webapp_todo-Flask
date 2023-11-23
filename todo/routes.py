@@ -16,7 +16,7 @@ app = create_app()
 @app.get('/')
 def home():
     todo_list = ToDo.query.all()
-    return render_template('todo/index.html', todo_list=todo_list, title='Главная страница')
+    return render_template('index.html', todo_list=todo_list, title='Главная страница')
 
 
 @app.post('/add')
