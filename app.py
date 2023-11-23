@@ -1,6 +1,6 @@
-from flask import Flask
-
-
+from todo.routes import app, db
 
 if __name__ == "__main__":
-    pass
+    with app.app_context():
+        db.create_all()
+        app.run(debug=True, port=5555)
