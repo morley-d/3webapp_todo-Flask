@@ -15,3 +15,15 @@ app = create_app()
 @app.get('/')
 def home():
     pass
+
+@app.get('/')
+def add():
+    pass
+
+@app.get('/')
+def update():
+    pass
+
+@app.get('/')
+def delete():
+    pass
