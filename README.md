@@ -71,6 +71,10 @@
     set FLASK_APP=app.py
     set FLASK_ENV=development
 
+для power shell
+    $Env:FLASK_APP = 'app.py'
+    $Env:FLASK_ENV = 'development'
+
 
 Запускаем приложение
     
