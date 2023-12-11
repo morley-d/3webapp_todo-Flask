@@ -1,4 +1,4 @@
-# 3 webapp_todo на Flask (by Терехов Михаил)
+# three web applications: Flask (by Терехов Михаил)
 
 Простой ToDo менеджер, реализованный на веб-фреймворке Flask
 В качестве веб-интерфейса использован фреймворк Semantic UI https://semantic-ui.com/
